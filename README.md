@@ -1,3 +1,5 @@
+[comment]: spellcheck-off
+
 # Latex + VSCode
 
 ## Requerimentos
@@ -37,3 +39,7 @@ Adicione ao arquivo settings.json
         "*.synctex.gz",
         "*.xdv"
     ]
+
+Instale a extensão Spell Right
+
+    ext install ban.spellright
