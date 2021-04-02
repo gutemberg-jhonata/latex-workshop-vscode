@@ -2,13 +2,20 @@
 
 # Latex + VSCode
 
-## Requerimentos
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Text Live
 - latexmk
 - TeX Workshop
+- Spell Right
 
-## Instalação
+## 💻 Projeto
+
+Este repositório tem o propósito de documentar a criação de um ambiente para desenvolvimento de trabalhos, relatórios e artigos com o Visual Studio Code e a extensão Latex Workshop. Além de conter modelos prontos para o desenvolvimento dos mesmos.
+
+## ⚙️ Instalação
 
 ### Windows
 
@@ -22,11 +29,15 @@ Baixe e instale o MikTex através do site https://miktex.org/download
 
 Instale o pacote latexmk através do MikTex.
 
+### VSCode
+
 Instale a extensão TeX Workshop através do Visual Studio Code Marketplace ou execute o comando:
     
     ext install latex-workshop
 
-### VSCode
+Instale a extensão Spell Right
+
+    ext install ban.spellright
 
 Adicione ao arquivo settings.json
 
@@ -39,7 +50,3 @@ Adicione ao arquivo settings.json
         "*.synctex.gz",
         "*.xdv"
     ]
-
-Instale a extensão Spell Right
-
-    ext install ban.spellright
